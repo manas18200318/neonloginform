@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+html{
+    padding: 0;
+    
+}
+body{
+    background-color: #080808;
+
+}
+caption{
+    font-family: 'Silkscreen', cursive;
+    color: white;
+}
+.loginform{
+    height: 400px;
+
+    width:400px;
+    background-color: #010203;
+    position: absolute;
+    left: 50%;;
+    top: 50%;
+    margin-top: -200px;
+    margin-left:-200px;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 10Px;
+    animation : loginform1 3s infinite;
+
+
+}
+@keyframes loginform1{
+    0%{
+        box-shadow: 0px 0px 5px 1px #C724B1;
+    }
+    25%{
+        box-shadow:  0px 0px 5px 1px #4d4dff;
+
+    }
+    50%{
+        box-shadow:  0px 0px 5px 1px #E0E722;
+
+    }
+    75%{
+        box-shadow:  0px 0px 5px 1px #FFAD00;
+    }
+    80%{
+        box-shadow :  0px 0px 5px 1px #D22730;
+
+    }
+    85%{
+        box-shadow:  0px 0px 5px 1px #DB3EB1;
+    }
+    100%{
+        box-shadow:  0px 0px 5px 1px #44D62C;
+
+    }
+}
+
+.loginform p{
+    font-family:Silkscreen ;
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    text-shadow: 1px 1px blue;
+    font-size: 30px;
+    color:  red;
+    animation: loginformp 10s infinite;
+
+
+
+}
+@keyframes loginformp {
+    0%{
+        color: #C724B1;
+    }
+    25%{
+        color: #4d4dff;
+
+    }
+    50%{
+        color: #E0E722;
+
+    }
+    75%{
+       color: #FFAD00;
+    }
+    80%{
+       color: #D22730;
+
+    }
+    85%{
+        color: #DB3EB1;
+    }
+    100%{
+        color: #44D62C;
+
+    }
+}
+.loginform .userid{
+    color: black;
+    border: 1px;
+    padding: 10px;
+    font: 20px;
+    font-family: 'Silkscreen';
+    position: absolute;
+    left:20%;
+    top: 30%;
+    border-radius: 10px;
+    box-shadow:  0px 0px 2px  2px red;
+    animation: loginform1 10s infinite;
+
+
+}
+input::placeholder{
+    text-align: center;
+    
+    color: rgb(142, 0, 0);
+}
+input:hover{
+    border-radius: 100px;
+    background-color: red;
+    border: 2px blue;
+    animation: manas 2s infinite;
+}
+@keyframes  manas {
+    0%{
+        
+        background-color: rgb(92, 92, 240);
+
+    }
+
+    50%{
+       
+        background-color: goldenrod;
+    }
+    
+}
+.loginform .pw{
+    color: black;
+    border: 1px ;
+    padding: 10px;
+    font: 20px;
+    font-family: 'Silkscreen';
+    position: absolute;
+    left:20%;
+    top: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px red;
+    animation: loginform1 10s infinite;
+
+    
+}
+.loginform .subt{
+    color: black;
+    border: 1px;
+    padding: 10px;
+    font: 20px;
+    font-family: 'Silkscreen';
+    position: absolute;
+    left:45%;
+    top: 70%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px red;
+    animation: loginform1 10s infinite;
+
+}
+submit:placeholder{
+    color: rgba(142 , 0 , 0 );
+
+}
+
+
+
